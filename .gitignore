@@ -1,0 +1,102 @@
+# Project-specific
+data/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyvenv/
+pipenv/
+# Poetry specific
+poetry.lock
+.pdm.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Logs and other temporary files
+*.log
+*.csv
+*.tsv
+*.out
+*.err
+*.sqlite3
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Django stuff
+*.db
+*.sqlite3
+__pycache__/
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# Flask
+instance/
+.webassets-cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Security
+.env
+*.key
